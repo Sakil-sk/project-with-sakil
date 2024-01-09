@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body {
+    padding-top: 56px;
+}
+
+/* banner css start*/
+.banner {
+    display: grid;
+    background: linear-gradient(135deg, #4203a9, #90bafc);
+    color:#fff;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.calculator span{
+    color: #ffff76;
+
+}
+
+.fields{
+    padding: 1px 20px;
+    border-radius: 10px;
+    border: 2px solid #2f485e;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.card {
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px #dbdbdb;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: repeat(4, 3fr);
+    column-gap: 20px;
+    justify-content: center;
+
+}
+
+.card img {
+    width: 300px;
+    border-radius: 10px;
+    padding: 15px;
+
+}
+
+.card img:hover {
+    transform: scale(1.01);
+    transform: 0.3s;
+}
+
+.card-body{
+    padding: 20px;
+    font-size: 16px;
+}
+
+footer{
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #ddd;
+    font-size: 20px;
+    font-weight: 400;
+    color: #2f485e;
+    background-color:#3498db;
+}
